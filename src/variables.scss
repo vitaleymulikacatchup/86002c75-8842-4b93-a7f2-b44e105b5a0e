@@ -1,0 +1,112 @@
+/* ============================================ */
+/* CSS/SCSS Variables Extracted from Source */
+/* Auto-generated from website cloning */
+/* ============================================ */
+
+/* ============================================ */
+/* CSS Custom Properties (use with var(--name)) */
+/* ALL CSS variables must be inside :root block */
+/* ============================================ */
+:root {
+  /* Colors */
+  --primary-cta: #ffcf40;
+  --color-primary-cta: var(--primary-cta);
+  --color-white: #fff;
+  --color-black: #000;
+  --secondary-cta: #fff;
+  --color-background: #fefef5;
+  --card: #fdfdf0;
+  --accent: #facc15;
+  --background-accent: #ffbf00;
+  --foreground: #1a1a00;
+  
+  /* Text Sizes */
+  --text-2xl: 5vw;
+  --text-7xl: 10vw;
+  --text-lg: 3.5vw;
+  --text-2xs: 2.5vw;
+  --text-6xl: 8.5vw;
+  --text-xl: 4.25vw;
+  --text-9xl: 14vw;
+  --text-sm: 3vw;
+  --text-4xl: 7vw;
+  --text-3xl: 6vw;
+  --text-xs: 2.75vw;
+
+  /* Line Heights */
+  --text-2xl--line-height: calc(2 / 1.5);
+  --text-lg--line-height: calc(1.75 / 1.125);
+  --text-xl--line-height: calc(1.75 / 1.25);
+  --text-sm--line-height: calc(1.25 / .875);
+  --text-3xl--line-height: calc(2.25 / 1.875);
+  --text-xs--line-height: calc(1 / .75);
+  --text-4xl--line-height: calc(2.5 / 2.25);
+  --text-5xl--line-height: 1;
+  --text-6xl--line-height: 1;
+  --text-7xl--line-height: 1;
+  --text-8xl--line-height: 1;
+  --text-9xl--line-height: 1;
+
+  /* Typography */
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-medium: 500;
+  
+  /* Spacing */
+  --spacing: .25rem;
+  --width-content-width: 80vw;
+  
+  /* Widths */
+  --width-carousel-padding-controls: calc((100vw - var(--width-content-width)) / 2 + 1px);
+  --width-carousel-padding: calc((100vw - var(--width-content-width)) / 2 + 1px - var(--vw-1_5));
+  
+  /* Dimensions */
+  --width-10: 10vw;
+  --width-20: 20vw;
+  --width-30: 30vw;
+  --width-40: 40vw;
+  --width-50: 50vw;
+  --width-60: 60vw;
+  --width-70: 70vw;
+  --width-80: 80vw;
+  --width-90: 90vw;
+  --width-95: 95vw;
+
+  /* Heights */
+  --height-6: 5.5vw;
+  --height-7: 6.5vw;
+  --height-8: 7.5vw;
+  --height-9: 8.5vw;
+  --height-10: 9vw;
+
+  /* Blurs */
+  --blur-xl: 24px;
+  --blur-xs: 4px;
+  --blur-sm: 8px;
+  
+  /* Transitions */
+  --default-transition-duration: .15s;
+  --ease-in-out: cubic-bezier(.4, 0, .2, 1);
+  --ease-out: cubic-bezier(0, 0, .2, 1);
+  
+  /* Additional */
+  --tw-ring-offset-color: #fff;
+  --tw-drop-shadow-alpha: 100%;
+  --tw-inset-shadow-alpha: 100%;
+  --tw-shadow-alpha: 100%;
+}
+
+/* ============================================ */
+/* Usage Guide */
+/* ============================================ */
+
+/* CSS Custom Properties (--var-name) */
+/* Use: color: var(--primary-color); */
+
+/* SCSS Variables ($var-name) */
+/* Use: color: $primary-color; */
+
+/* You can also use these in your Tailwind config */
+/* by importing this file or referencing the values */
